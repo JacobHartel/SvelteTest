@@ -8,8 +8,8 @@ const config = {
 		// Ensure all assets are built into the "build" directory (or use a custom folder)
 		pages: 'build',
 		assets: 'build',
-		fallback: null,  // Set to a specific fallback if you're using client-side routing
-		precompress: false // Enable this if you want to precompress files (gzip, etc.)
+		fallback: 'index.html',  // Set to a specific fallback if you're using client-side routing
+		
 	  }),
 	  prerender: {
 		default: true // This will prerender all pages for static hosting
